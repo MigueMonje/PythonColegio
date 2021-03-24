@@ -1,9 +1,13 @@
 from random import randint,shuffle
+# Crear la lista y mesclarla
 lint = list(range(1000))
 shuffle(lint)
 print(*lint)
 
 def bubblesort(linput):
+    """
+        Ordenar una lista usando el algoritmo Bubblesort.
+    """
     l = [i for i in linput]
     finish = False
     while not finish:
@@ -18,6 +22,9 @@ def bubblesort(linput):
     return l
 
 def quicksort(l, pivot = None):
+    """
+        Ordenar una lista usando el algoritmo Quicksort.
+    """
     if not pivot:
         pivot = l[randint(0,len(l)-1)]
         
@@ -36,7 +43,7 @@ def quicksort(l, pivot = None):
         b = quicksort(b)
     return a + b
 
-
+# Ordenar la lista (aqui se puede cambiar cual algoritmo usar)
 lint = quicksort(lint)
 print("---------------------------------------------")
 print(*lint)
