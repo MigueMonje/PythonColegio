@@ -18,7 +18,7 @@ Encuentra todos los numeros primos entre 0 y n.
 ### Promedio.py
 Encuetra el promedio de una materia.
 ### Sort.py
-Usa [Quicksort](https://www.geeksforgeeks.org/quick-sort/) y [Bubblesort](https://www.geeksforgeeks.org/bubble-sort/) para ordenar una lista.
+Usa [Quicksort](https://www.geeksforgeeks.org/quick-sort/) y [Bubblesort](https://www.geeksforgeeks.org/bubble-sort/) para ordenar una lista generada al azar.
 ### Sortinput.py
 Toma una lista del usuario y la ordena con quicksort.
 ### Cheatsort.py
