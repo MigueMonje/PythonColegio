@@ -21,5 +21,7 @@ Encuetra el promedio de una materia.
 Usa [Quicksort](https://www.geeksforgeeks.org/quick-sort/) y [Bubblesort](https://www.geeksforgeeks.org/bubble-sort/) para ordenar una lista.
 ### Sortinput.py
 Toma una lista del usuario y la ordena con quicksort.
+### Cheatsort.py
+Un algoritmo de ordenado que me invente.
 ### Semaforo.py
 Toma un color de un semaforo y ""calcula"" que hacer.
