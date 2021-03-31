@@ -21,3 +21,5 @@ def quicksort(l, pivot = None):
     return a + b
 nElements = int(input("Numero de elementos: "))
 inlist = [input(f"Elemento #{i}") for i in range(nElements)]
+sortlist = quicksort(inlist)
+print(sortlist)
