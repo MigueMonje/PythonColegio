@@ -25,3 +25,5 @@ Toma una lista del usuario y la ordena con quicksort.
 Un algoritmo de ordenado que me invente.
 ### Semaforo.py
 Toma un color de un semaforo y ""calcula"" que hacer.
+### Bloqueo.py
+Simula una pantalla de bloqqueo de un celular.
