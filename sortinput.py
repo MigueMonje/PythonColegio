@@ -1,3 +1,4 @@
+from random import randint
 def quicksort(l, pivot = None):
     """
         Ordenar una lista usando el algoritmo Quicksort.
