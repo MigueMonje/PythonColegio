@@ -27,3 +27,5 @@ Un algoritmo de ordenado que me invente.
 Toma un color de un semaforo y ""calcula"" que hacer.
 ### Bloqueo.py
 Simula una pantalla de bloqqueo de un celular.
+### Puntaje.py
+""Calcula"" que tan buena o mala fue tu nota.
