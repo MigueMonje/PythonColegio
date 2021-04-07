@@ -12,5 +12,7 @@ if edad >= 65:
     print("Adulto Mayor")
 elif edad >= 18:
     print("Mayor de Edad")
+elif edad < 0:
+    print(f"Faltan {-edad}años para que nascas.")
 else:
     print("Menor de edad")
