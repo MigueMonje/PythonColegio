@@ -28,12 +28,14 @@ while attempt < 10:
 sleep(1)
 if answer == guess:
     print("Acces aquired.")
-    sleep(0.5)
+    sleep(1)
     print("Downloading information...")
     sleep(2)
     print("Done")
     inf = open("info.txt","w")
     inf.write("You win!")
     inf.close()
+    sleep(1)
+    print("Information saved in info.txt")
 else:
     print("Acces denied.")
