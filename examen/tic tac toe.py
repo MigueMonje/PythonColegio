@@ -70,7 +70,6 @@ def machine(board:Board):
     for i in posible:
         boardCopy = board.copy()
         boardCopy.move(i)
-        print(boardCopy._turn)
         if boardCopy.checkWin():
             board.move(i)
             return
