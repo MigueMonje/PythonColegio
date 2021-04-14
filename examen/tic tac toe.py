@@ -4,6 +4,8 @@ class Board:
     _order = ["x","o"]
     _turn = 0
     players = []
+    def __init__(self):
+        self._board = [" "]*9
     def palyer1ltr(self,ltr):
         if ltr == "x":
             self._order = ["x","o"]
@@ -92,15 +94,15 @@ def machine(board:Board):
         return
     
     bogo(board)
-    
-        
 
-
-
-
-board = Board()
-board.players=[human,machine]
-w = board.play()
-r = board._order[w]
-print(board)
-print(f"{r if w != False else 'Nobody'} Wins")
+keepPlaying = True
+while keepPlaying:
+    board = Board()
+    board.players=[human,machine]
+    xo = input("x or o: ").lower()[0]
+    board.palyer1ltr(xo)
+    w = board.play()
+    r = board._order[w]
+    print(board)
+    print(f"{r if w != False else 'Nobody'} Wins")
+    keepPLaying = input("Play again? (y/n)").lower()[0] == "y"
