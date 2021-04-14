@@ -1,4 +1,15 @@
 from random import randint,choice
+inputMap = {
+    7:0,
+    8:1,
+    9:2,
+    4:3,
+    5:4,
+    6:5,
+    1:6,
+    2:7,
+    3:8
+}
 class Board:
     _board = [" "]*9
     _order = ["x","o"]
@@ -57,12 +68,12 @@ class Board:
         return b
 
 def human(board:Board):
-    print("0 1 2\n3 4 5\n6 7 8\n")
+    print("7 8 9\n4 5 6\n1 2 3\n")
     print(board)
     moves = board.posible()
     move = -1
     while not (move in moves):
-        move = int(input("Move: "))
+        move = inputMap[int(input("Move: "))]
     board.move(move)
 def bogo(board:Board):
     board.move(choice(board.posible()))
