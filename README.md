@@ -29,3 +29,5 @@ Toma un color de un semaforo y ""calcula"" que hacer.
 Simula una pantalla de bloqqueo de un celular.
 ### Puntaje.py
 ""Calcula"" que tan buena o mala fue tu nota.
+### Dia.py
+Toma un numero del 1 al 7 y da el dia de la semana correspondiente.
