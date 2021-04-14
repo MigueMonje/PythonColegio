@@ -12,7 +12,7 @@ units = {
 }
 
 # Conseguir las entradas y buscarlas en las unidades
-num = int(input("Numero: "))
+num = float(input("Numero: "))
 unit1 = units[input("Unidad de entrada (abreviada): ").lower()]
 unit2 = units[input("Unidad de salida (abreviada): ").lower()]
 
