@@ -5,8 +5,7 @@ dias = {
     4: "Jueves",
     5: "Viernes",
     6: "Sabado",
-    7: "Domigo",
-    69: "SI"
+    7: "Domigo"
 }
 d = int(input("Dia #: "))
 if d in dias:
