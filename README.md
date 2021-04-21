@@ -31,3 +31,5 @@ Simula una pantalla de bloqqueo de un celular.
 ""Calcula"" que tan buena o mala fue tu nota.
 ### Dia.py
 Toma un numero del 1 al 7 y da el dia de la semana correspondiente.
+### Weirdcalc.py
+Una calculadora extaña y no muy util.
