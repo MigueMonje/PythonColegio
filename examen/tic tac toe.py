@@ -116,4 +116,4 @@ while keepPlaying:
     r = board._order[w]
     print(board)
     print(f"{r if w != False else 'Nobody'} Wins")
-    keepPLaying = input("Play again? (y/n)").lower()[0] == "y"
+    keepPlaying = input("Play again? (y/n)").lower()[0] == "y"
