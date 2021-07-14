@@ -5,6 +5,7 @@ units = {
     "dm":1/10,
     "cm":1/100,
     "mm":1/1000,
+    "plg":30.48/100,
     "$":1,
     "bs":1/6.9,
     "€":0.84,
@@ -17,5 +18,5 @@ unit1 = units[input("Unidad de entrada (abreviada): ").lower()]
 unit2 = units[input("Unidad de salida (abreviada): ").lower()]
 
 # Convertir de unit1 a unit2
-conv = unit1/unit2
-print(num*conv)
+conv = (num*unit1)/unit2
+print(conv)
