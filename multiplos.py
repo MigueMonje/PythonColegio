@@ -1,4 +1,4 @@
 a = int(input("Escribe el numero:" ))
-n = int(input("Cunatos numeros: "))
+n = int(input("Hasta que numero: "))
 for i in range(n):
-    print((i+1)*a)
+    if (i % n) == 0: print(i)
